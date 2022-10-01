@@ -1,0 +1,7 @@
+services:
+  megacmd:
+    build: .
+    volumes:
+      - ./srv/data:/data
+    tty: true
+    stdin_open: true
