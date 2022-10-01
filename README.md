@@ -10,7 +10,7 @@ Firstly, create a container in background:
 docker compose up -d
 ```
 
-Run mega commands by `docker compose exec`. For examples:
+Run mega commands by `docker compose exec`. For example:
 
 Logs into a MEGA account:
 
