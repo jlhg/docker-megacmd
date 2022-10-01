@@ -15,11 +15,11 @@ Run mega commands by `docker compose exec`. For example:
 Logs into a MEGA account:
 
 ```
-docker compose exec megacmd mega-login <email> <password>
+docker compose exec app mega-login <email> <password>
 ```
 
 Downloads a remote file/folder or a public link:
 
 ```
-docker compose exec megacmd mega-get <download_url>
+docker compose exec app mega-get <download_url>
 ```

@@ -1,7 +1,7 @@
 services:
-  megacmd:
+  app:
     build: .
     volumes:
-      - ./srv/data:/data
+      - ./srv/app:/app
     tty: true
     stdin_open: true
