@@ -7,7 +7,7 @@ Docker image for [MEGAcmd](https://github.com/meganz/MEGAcmd)
 Firstly, create a container in background:
 
 ```
-docker compose build -d
+docker compose up -d
 ```
 
 Run mega commands by `docker compose exec`. For examples:
